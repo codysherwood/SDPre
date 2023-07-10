@@ -10,7 +10,13 @@ public class Objective5Lab3 {
 
 
 		 if(userNum > 0) {
-		 	System.out.println("The number is positive");
+		 	System.out.println("The number is positive ");
+		 }
+		 else if(userNum == 0) {
+		 	System.out.println("The number is neutral ");
+		 }
+		 else  {
+		 	System.out.println("The number is negative ");
 		 }
 
 			scanner.close();
