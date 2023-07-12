@@ -35,6 +35,7 @@ public class Objective9Lab5 {
 						break;
 					case 4:
 						keepGoing = false;
+						System.out.println("You've chosen to quit.");
 						break;		
 					default:
 						System.out.println("Invalid selection");	
